@@ -22,23 +22,23 @@
     <form action="index.php">
 
       <label for="fname">Naam student</label>
-      <input type="text" id="fname" name="firstname" placeholder="Naam..">
+      <input type="text" id="fname" name="firstname" placeholder="Naam.." required>
 
       <label for="lname">Klas</label>
-      <input type="text" id="lname" name="lastname" placeholder="Klas..">
+      <input type="text" id="lname" name="lastname" placeholder="Klas.." required>
 
       <label for="country">Minuten te laat</label>
-      <select id="country" name="country">
+      <select id="country" name="country" required>
         <option value="5">05</option>
         <option value="10">10</option>
         <option value="15">15</option>
-        <option value="15">20</option>
-        <option value="15">25</option>
-        <option value="15">30</option>
+        <option value="20">20</option>
+        <option value="25">25</option>
+        <option value="30">30</option>
       </select>
 
       <label for="subject">Reden te laat</label>
-      <textarea id="subject" name="subject" placeholder="Reden te laat.." style="height:200px"></textarea>
+      <textarea id="subject" name="subject" placeholder="Reden te laat.." style="height:200px" required></textarea>
 
       <input type="submit" value="Opslaan">
     </form>
