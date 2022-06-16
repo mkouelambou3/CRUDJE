@@ -7,28 +7,27 @@
       <link rel="stylesheet" href="style.css">
       <title>`CURD`</title>
     </head>
-    <body>
+  <body>
     <div class="container">
-      <form action="action_page.php">
+      <form action="index.php">
 
-        <label for="fname">First Name</label>
-        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        <label for="fname">Naam student</label>
+        <input type="text" id="fname" name="firstname" placeholder="Naam..">
 
-        <label for="lname">Last Name</label>
-        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        <label for="lname">Klas</label>
+        <input type="text" id="lname" name="lastname" placeholder="Klas..">
 
-        <label for="country">Country</label>
+        <label for="country">Minuten te laat</label>
         <select id="country" name="country">
-          <option value="australia">Australia</option>
-          <option value="canada">Canada</option>
-          <option value="usa">USA</option>
+          <option value="5">5</option>
+          <option value="10">10</option>
+          <option value="15">15</option>
         </select>
 
-        <label for="subject">Subject</label>
-        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+        <label for="subject">Reden te laat</label>
+        <textarea id="subject" name="subject" placeholder="Reden te laat.." style="height:200px"></textarea>
 
-        <input type="submit" value="Submit">
-
+        <input type="submit" value="Opslaan">
       </form>
     </div>
   </body>
