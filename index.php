@@ -16,7 +16,7 @@
     </div>
     <div class="row">
         <div class="col-md-6">
-        <a class="btn btn-success m-5" href="form.php" role="button">Weer eentje telaat!</a>
+        <a class="btn btn-success m-5" href="form.php" role="button">Te laat form invullen</a>
         </div>
     </div>
 
