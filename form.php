@@ -32,6 +32,9 @@
         <option value="5">05</option>
         <option value="10">10</option>
         <option value="15">15</option>
+        <option value="15">20</option>
+        <option value="15">25</option>
+        <option value="15">30</option>
       </select>
 
       <label for="subject">Reden te laat</label>
