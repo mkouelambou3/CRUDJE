@@ -1,3 +1,3 @@
 # CRUDJE
-hi everyone
-boobas
+
+Opdracht CRUD voor school.
