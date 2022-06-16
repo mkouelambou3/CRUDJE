@@ -1,4 +1,4 @@
-<?php 
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -68,4 +68,3 @@ input[type=text], select, textarea {
 </style>
 </body>
 </html>
-?>
