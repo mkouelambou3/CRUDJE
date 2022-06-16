@@ -6,8 +6,17 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <link rel="stylesheet" href="style.css">
       <title>`CURD`</title>
+      <style>
+        body{
+          background-color:#2B3E50;
+          width: 600px; 
+          margin: 20px auto;
+        }
+        
+      </style>
     </head>
   <body>
+    <h2 class="formText">Nieuwe melding te late student</h2>
     <div class="container">
       <form action="index.php">
 
