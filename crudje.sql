@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Gegenereerd op: 16 jun 2022 om 14:33
+-- Gegenereerd op: 16 jun 2022 om 14:45
 -- Serverversie: 10.4.22-MariaDB
 -- PHP-versie: 8.1.2
 
@@ -24,35 +24,42 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Tabelstructuur voor tabel `employees`
+-- Tabelstructuur voor tabel `klas`
 --
 
-CREATE TABLE `employees` (
-  `id` int(11) NOT NULL,
-  `name` varchar(100) NOT NULL,
-  `address` varchar(255) NOT NULL,
-  `salary` int(10) NOT NULL
+CREATE TABLE `klas` (
+  `klas` varchar(20) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
---
--- Indexen voor geëxporteerde tabellen
---
+-- --------------------------------------------------------
 
 --
--- Indexen voor tabel `employees`
---
-ALTER TABLE `employees`
-  ADD PRIMARY KEY (`id`);
-
---
--- AUTO_INCREMENT voor geëxporteerde tabellen
+-- Tabelstructuur voor tabel `minuten_te_laat`
 --
 
+CREATE TABLE `minuten_te_laat` (
+  `laat` int(10) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+-- --------------------------------------------------------
+
 --
--- AUTO_INCREMENT voor een tabel `employees`
+-- Tabelstructuur voor tabel `naam_student`
 --
-ALTER TABLE `employees`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+
+CREATE TABLE `naam_student` (
+  `name` varchar(100) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+-- --------------------------------------------------------
+
+--
+-- Tabelstructuur voor tabel `reden_te_laat`
+--
+
+CREATE TABLE `reden_te_laat` (
+  `reden` varchar(255) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
