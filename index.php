@@ -13,7 +13,7 @@
 <body>
     <div class="row">
         <div class="col-md-6">
-        <a class="btn btn-primary" href="form.php" role="button">Form</a>
+        <a class="btn btn-success" href="form.php" role="button">Weer eentje telaat!</a>
         </div>
     </div>
 
