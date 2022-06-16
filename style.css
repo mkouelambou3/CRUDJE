@@ -39,4 +39,5 @@ input[type=text], select, textarea {
 
   input:invalid{
     border-color: red ;
+    border: solid 2px;
   }
