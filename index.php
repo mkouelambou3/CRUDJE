@@ -11,9 +11,12 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="col-md-6 m-5">
+            <h1>Overzicht studenten die te laat waren</h1>
+    </div>
     <div class="row">
         <div class="col-md-6">
-        <a class="btn btn-success" href="form.php" role="button">Weer eentje telaat!</a>
+        <a class="btn btn-success m-5" href="form.php" role="button">Weer eentje telaat!</a>
         </div>
     </div>
 
